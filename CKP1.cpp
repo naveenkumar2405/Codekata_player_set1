@@ -1,6 +1,4 @@
 #include<iostream>
-#include<stdio.h>
-#include<conio.h>
 #include<string.h>
 using namespace std;
 
@@ -8,7 +6,7 @@ int main()
 {
  char str[100],temp;
  int i,j=0;
- gets(str);
+ cin>>str;
  i=0;
  j=strlen(str)-1;
   while(i<j)
